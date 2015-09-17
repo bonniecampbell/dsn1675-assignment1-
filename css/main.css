@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/ 1.5 sans-serif;
+}
+*,*::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: grey;
+  text-align: center;
+  display: block;
+}
+
+header nav ol {
+  list-style-type: none;
+  background-color: lightgrey;
+  padding: inherit;
+  margin: 0;
+}
+
+header nav li {
+  display: inline;
+  margin: 0em;
+  padding: 0em;
+}
+
+header nav a{
+  display: inline-block;
+  width: 6em;
+  padding: 1em;
+  margin: 1em;
+  background-color: darkgrey;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+    max-height: 75vh;
+    overflow: hidden;
+    clear: left;
+  }
+
+.banner-content{
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+    color: #fff;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+    font-style: italic;
+
+  }
+
+.banner img{
+    width: 100%;
+  }
+
+  .banner-content h2,
+  .banner-content p{
+    margin:0;
+    position: relative;
+  }
+
+.second {
+  text-align: center;
+  font-size: 2em;
+}
+
+.babylon img {
+  padding: 2em;
+}
+
+.artemis img {
+  padding: 2em;
+}
+
+.zeus img {
+  padding: 2em;
+}
+
+.halicarnassus img {
+  padding: 2em;
+}
+
+.rhodes img {
+  padding: 2em;
+}
+
+.alexandria img {
+  padding: 2em;
+}
+
+.babylon img {
+  padding: 2em;
+}
