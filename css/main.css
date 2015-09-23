@@ -75,116 +75,344 @@ header nav a{
   font-size: 2em;
 }
 
+.giza img {
+  width: 100%;
+  padding: 2em;
+}
+
 .babylon img {
+  width: 100%;
   padding: 2em;
 }
 
 .artemis img {
+  width: 100%;
   padding: 2em;
 }
 
 .zeus img {
+  width: 100%;
   padding: 2em;
 }
 
 .halicarnassus img {
+  width: 100%;
   padding: 2em;
 }
 
 .rhodes img {
+  width: 100%;
   padding: 2em;
 }
 
 .alexandria img {
+  width: 100%;
   padding: 2em;
 }
 
-.giza dt dd {
-  float: right;
+
+.one {
+  width: 33.3%;
+  float: left;
+}
+
+.one dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+.two {
+  width: 33.3%;
+  float: left;
+}
+
+.two dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+.three {
+  width: 33.3%;
+  float: left;
+}
+
+.three dd {
+  padding-bottom: 4em;
+  margin: 0;
 }
 
 .giza a {
-  display: inline-block;
+  display: block;
   padding: 0.5em;
-  margin: 0.5em;
+  margin: 1em auto;
   background-color: darkgrey;
   color: white;
   text-decoration: none;
   text-align: center;
   border-radius: 0.5rem;
-  width: 100%;
+  width: 50%;
+  clear: both;
+}
+
+.four {
+  width: 33.3%;
+  float: left;
+}
+
+.four dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+.five {
+  width: 33.3%;
+  float: left;
+}
+
+.five dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+.six {
+  width: 33.3%;
+  float: left;
+}
+
+.six dd {
+  padding-bottom: 4em;
+  margin: 0;
 }
 
 .babylon a {
-  display: inline-block;
+  display: block;
   padding: 0.5em;
-  margin: 0.5em;
+  margin: 1em auto;
   background-color: darkgrey;
   color: white;
   text-decoration: none;
   text-align: center;
   border-radius: 0.5rem;
-  width: 100%;
+  width: 50%;
+  clear: both;
+}
+
+.seven {
+  width: 33.3%;
+  float: left;
+}
+
+.seven dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+.eight {
+  width: 33.3%;
+  float: left;
+}
+
+.eight dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+.nine {
+  width: 33.3%;
+  float: left;
+}
+
+.nine dd {
+  padding-bottom: 4em;
+  margin: 0;
 }
 
 .artemis a {
-  display: inline-block;
+  display: block;
   padding: 0.5em;
-  margin: 0.5em;
+  margin: 1em auto;
   background-color: darkgrey;
   color: white;
   text-decoration: none;
   text-align: center;
   border-radius: 0.5rem;
-  width: 100%;
+  width: 50%;
+  clear: both;
 }
+
+.ten {
+  width: 33.3%;
+  float: left;
+}
+
+.ten dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+.eleven {
+  width: 33.3%;
+  float: left;
+}
+
+.eleven dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+.twelve {
+  width: 33.3%;
+  float: left;
+}
+
+.twelve dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
 
 .zeus a {
-  display: inline-block;
+  display: block;
   padding: 0.5em;
-  margin: 0.5em;
+  margin: 1em auto;
   background-color: darkgrey;
   color: white;
   text-decoration: none;
   text-align: center;
   border-radius: 0.5rem;
-  width: 100%;
+  width: 50%;
+  clear: both;
 }
 
+.thirteen {
+  width: 33.3%;
+  float: left;
+}
+
+.thirteen dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+.fourteen {
+  width: 33.3%;
+  float: left;
+}
+
+.fourteen dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+.fifteen {
+  width: 33.3%;
+  float: left;
+}
+
+.fifteen dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+
 .halicarnassus a {
-  display: inline-block;
+  display: block;
   padding: 0.5em;
-  margin: 0.5em;
+  margin: 1em auto;
   background-color: darkgrey;
   color: white;
   text-decoration: none;
   text-align: center;
   border-radius: 0.5rem;
-  width: 100%;
+  width: 50%;
+  clear: both;
+}
+
+.sixteen {
+  width: 33.3%;
+  float: left;
+}
+
+.sixteen dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+.seventeen {
+  width: 33.3%;
+  float: left;
+}
+
+.seventeen dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+.eighteen {
+  width: 33.3%;
+  float: left;
+}
+
+.eighteen dd {
+  padding-bottom: 4em;
+  margin: 0;
 }
 
 .rhodes a {
-  display: inline-block;
+  display: block;
   padding: 0.5em;
-  margin: 0.5em;
+  margin: 1em auto;
   background-color: darkgrey;
   color: white;
   text-decoration: none;
   text-align: center;
   border-radius: 0.5rem;
-  width: 100%;
+  width: 50%;
+  clear: both;
 }
 
+.nineteen {
+  width: 33.3%;
+  float: left;
+}
+
+.nineteen dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+.twenty {
+  width: 33.3%;
+  float: left;
+}
+
+.twenty dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+.twenty-one {
+  width: 33.3%;
+  float: left;
+}
+
+.twenty-one dd {
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+
 .alexandria a {
-  display: inline-block;
+  display: block;
   padding: 0.5em;
-  margin: 0.5em;
+  margin: 1em auto;
   background-color: darkgrey;
   color: white;
   text-decoration: none;
   text-align: center;
   border-radius: 0.5rem;
-  width: 100%;
+  width: 50%;
+  clear: both;
 }
 
 .tickets ol{
@@ -290,6 +518,10 @@ header nav a{
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+.copyright {
+  padding-top: 2em;
 }
 
 footer ol{
