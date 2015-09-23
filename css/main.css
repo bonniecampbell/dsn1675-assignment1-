@@ -14,8 +14,15 @@ header {
 
 header h1 {
   display: inline-block;
-  top: 5em;
-  font-size: 3em
+  font-size: 3em;
+  margin-top: auto;
+}
+
+header img{
+  width: 75px;
+  display: block;
+  margin: auto;
+  padding-top: 2em;
 }
 
 header nav ol {
