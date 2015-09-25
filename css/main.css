@@ -577,6 +577,8 @@ footer a {
   text-decoration: none;
 }
 
+}
+
 @media only screen and (min-width: 20em) {
 
 header{
@@ -688,11 +690,37 @@ header img {
   float: left;
 }
 
+header nav a{
+  display: inline-block;
+  padding: 0.5em 0 0.5em 0;
+  margin: 0.5 0.5 0.5 0.5em;
+  background-color: darkgrey;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0.5em;
+  width: 100%;
+}
+
 
 }
 
 @media only screen and (min-width: 30em) {
 
+  header h1 {
+  font-size: 2em;
+  width: 100%;
+}
+
+  header img {
+    margin-left: 1em;
+    margin-top: 1.5em;
+  }
+
+  .button-top {
+    right: 0.8em;
+    top: 1.3em;
+  }
 
   header nav a{
     font-size: 1em;
@@ -702,19 +730,15 @@ header img {
       display: inline;
       margin: 0em;
       padding: 0em;
+      width: 100%;
     }
 
-    header nav a{
-      display: inline-block;
-      padding: 0.5em 0 0.5em 0;
-      margin: 0.5 0.5 0.5 0.5em;
-      background-color: darkgrey;
-      color: white;
-      text-decoration: none;
-      text-align: center;
-      border-radius: 0.5em;
-    }
-
+    .banner-content h2{
+    font-size: 3em;
+  }
+    .banner-content p{
+    font-size: 1.5em;
+}
 
   .giza dl {
     font-size: 0.9em;
@@ -785,6 +809,52 @@ header img {
   text-decoration: none;
 }
 
+header nav a{
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0.5 0.5 0.5 0.5em;
+  background-color: darkgrey;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0.5em;
+  width: auto;
+}
+
+.second{
+
+  font-size: 3em;
+}
+
+.giza dl {
+  font-size: 1em;
+}
+
+.babylon dl {
+  font-size: 1em;
+}
+
+.artemis dl {
+  font-size: 1em;
+}
+
+.zeus dl {
+  font-size: 1em;
+}
+
+.halicarnassus dl {
+  font-size: 1em;
+}
+
+.rhodes dl {
+  font-size: 1em;
+}
+
+.alexandria dl {
+  font-size: 1em;
+}
+
+
 .tickets a {
   display: inline;
   padding: 0.5em 3em;
@@ -808,5 +878,99 @@ header img {
   border-radius: 0.5rem;
   width: 100%;
 }
+
+}
+
+@media only screen and (min-width: 50em) {
+
+  header h1 {
+  font-size: 3em;
+
+}
+
+header img {
+  margin-left: 1.5em;
+  margin-top: 2.5em;
+
+}
+
+.button-top {
+  font-size: 1.5em;
+  top: 2em;
+}
+
+.banner-content h2{
+font-size: 4em;
+}
+.banner-content p{
+font-size: 2em;
+}
+
+
+.giza dl {
+  font-size: 1.5em;
+}
+
+.babylon dl {
+  font-size: 1.5em;
+}
+
+.artemis dl {
+  font-size: 1.5em;
+}
+
+.zeus dl {
+  font-size: 1.5em;
+}
+
+.halicarnassus dl {
+  font-size: 1.5em;
+}
+
+.rhodes dl {
+  font-size: 1.5em;
+}
+
+.alexandria dl {
+  font-size: 1.5em;
+}
+
+.giza h3 {
+  font-size: 2em;
+}
+
+.babylon h3 {
+  font-size: 2em;
+}
+
+.artemis h3 {
+  font-size: 2em;
+}
+
+.zeus h3 {
+  font-size: 2em;
+}
+
+.halicarnassus h3 {
+  font-size: 2em;
+}
+
+.rhodes h3 {
+  font-size: 2em;
+}
+
+.alexandria h3 {
+  font-size: 2em;
+}
+
+
+.tickets a {
+  padding: 0.5em 5em;
+}
+
+.member a {
+  padding: 0.5em 5em;
+}
+
 
 }
