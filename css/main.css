@@ -157,36 +157,249 @@ header a:hover {
   padding: 2em;
 }
 
+.facts {
 
-.one {
-  width: 33.3%;
+position: relative;
+
+}
+
+.facts dd{
+
   float: left;
-}
-
-.one dd {
-  padding-bottom: 4em;
+  width: 33.33%;
+  padding-top: 1.5em;
   margin: 0;
+  padding-bottom: 2em;
 }
 
-.two {
-  width: 33.3%;
+.facts dt:nth-child(3){
+  left: 33.33%;
+}
+
+.facts dt:nth-child(5){
+  left: 66.66%;
+}
+
+
+.facts dt {
+
+position: absolute;
+width: 33.33%;
+left: 0;
+top: 0;
+margin: 0;
+
+}
+
+
+.facts-two {
+
+position: relative;
+
+}
+
+.facts-two dd{
+
   float: left;
-}
-
-.two dd {
-  padding-bottom: 4em;
+  width: 33.33%;
+  padding-top: 1.5em;
   margin: 0;
+  padding-bottom: 2em;
 }
 
-.three {
-  width: 33.3%;
+.facts-two dt:nth-child(3){
+  left: 33.33%;
+}
+
+.facts-two dt:nth-child(5){
+  left: 66.66%;
+}
+
+
+.facts-two dt {
+
+position: absolute;
+width: 33.33%;
+left: 0;
+top: 0;
+margin: 0;
+
+}
+
+
+.facts-three {
+
+position: relative;
+
+}
+
+.facts-three dd{
+
   float: left;
+  width: 33.33%;
+  padding-top: 1.5em;
+  margin: 0;
+  padding-bottom: 2em;
 }
 
-.three dd {
-  padding-bottom: 4em;
-  margin: 0;
+.facts-three dt:nth-child(3){
+  left: 33.33%;
 }
+
+.facts-three dt:nth-child(5){
+  left: 66.66%;
+}
+
+
+.facts-three dt {
+
+position: absolute;
+width: 33.33%;
+left: 0;
+top: 0;
+margin: 0;
+
+}
+
+
+.facts-four {
+
+position: relative;
+
+}
+
+.facts-four dd{
+  float: left;
+  width: 33.33%;
+  padding-top: 1.5em;
+  margin: 0;
+  padding-bottom: 2em;
+}
+
+.facts-four dt:nth-child(3){
+  left: 33.33%;
+}
+
+.facts-four dt:nth-child(5){
+  left: 66.66%;
+}
+
+
+.facts-four dt {
+
+position: absolute;
+width: 33.33%;
+left: 0;
+top: 0;
+margin: 0;
+
+}
+
+
+.facts-five {
+
+position: relative;
+
+}
+
+.facts-five dd{
+
+  float: left;
+  width: 33.33%;
+  padding-top: 1.5em;
+  margin: 0;
+  padding-bottom: 2em;
+}
+
+.facts-five dt:nth-child(3){
+  left: 33.33%;
+}
+
+.facts-five dt:nth-child(5){
+  left: 66.66%;
+}
+
+
+.facts-five dt {
+
+position: absolute;
+width: 33.33%;
+left: 0;
+top: 0;
+margin: 0;
+
+}
+
+
+.facts-six {
+
+position: relative;
+
+}
+
+.facts-six dd{
+
+  float: left;
+  width: 33.33%;
+  padding-top: 1.5em;
+  margin: 0;
+  padding-bottom: 2em;
+}
+
+.facts-six dt:nth-child(3){
+  left: 33.33%;
+}
+
+.facts-six dt:nth-child(5){
+  left: 66.66%;
+}
+
+
+.facts-six dt {
+
+position: absolute;
+width: 33.33%;
+left: 0;
+top: 0;
+margin: 0;
+
+}
+
+
+.facts-seven {
+
+position: relative;
+
+}
+
+.facts-seven dd{
+
+  float: left;
+  width: 33.33%;
+  padding-top: 1.5em;
+  margin: 0;
+  padding-bottom: 2em;
+}
+
+.facts-seven dt:nth-child(3){
+  left: 33.33%;
+}
+
+.facts-seven dt:nth-child(5){
+  left: 66.66%;
+}
+
+
+.facts-seven dt {
+
+position: absolute;
+width: 33.33%;
+left: 0;
+top: 0;
+margin: 0;
+
+}
+
 
 .giza a {
   display: block;
@@ -203,37 +416,6 @@ header a:hover {
 
 .giza a:hover {
   background-color: black;
-}
-
-
-.four {
-  width: 33.3%;
-  float: left;
-}
-
-.four dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
-
-.five {
-  width: 33.3%;
-  float: left;
-}
-
-.five dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
-
-.six {
-  width: 33.3%;
-  float: left;
-}
-
-.six dd {
-  padding-bottom: 4em;
-  margin: 0;
 }
 
 .babylon a {
@@ -253,35 +435,6 @@ header a:hover {
 .babylon a:hover {
   background-color: black;
 }
-.seven {
-  width: 33.3%;
-  float: left;
-}
-
-.seven dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
-
-.eight {
-  width: 33.3%;
-  float: left;
-}
-
-.eight dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
-
-.nine {
-  width: 33.3%;
-  float: left;
-}
-
-.nine dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
 
 .artemis a {
   display: block;
@@ -298,36 +451,6 @@ header a:hover {
 
 .artemis a:hover {
   background-color: black;
-}
-
-.ten {
-  width: 33.3%;
-  float: left;
-}
-
-.ten dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
-
-.eleven {
-  width: 33.3%;
-  float: left;
-}
-
-.eleven dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
-
-.twelve {
-  width: 33.3%;
-  float: left;
-}
-
-.twelve dd {
-  padding-bottom: 4em;
-  margin: 0;
 }
 
 
@@ -348,36 +471,6 @@ header a:hover {
   background-color: black;
 }
 
-.thirteen {
-  width: 33.3%;
-  float: left;
-}
-
-.thirteen dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
-
-.fourteen {
-  width: 33.3%;
-  float: left;
-}
-
-.fourteen dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
-
-.fifteen {
-  width: 33.3%;
-  float: left;
-}
-
-.fifteen dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
-
 
 .halicarnassus a {
   display: block;
@@ -396,35 +489,6 @@ header a:hover {
   background-color: black;
 }
 
-.sixteen {
-  width: 33.3%;
-  float: left;
-}
-
-.sixteen dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
-
-.seventeen {
-  width: 33.3%;
-  float: left;
-}
-
-.seventeen dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
-
-.eighteen {
-  width: 33.3%;
-  float: left;
-}
-
-.eighteen dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
 
 .rhodes a {
   display: block;
@@ -441,36 +505,6 @@ header a:hover {
 
 .rhodes a:hover {
   background-color: black;
-}
-
-.nineteen {
-  width: 33.3%;
-  float: left;
-}
-
-.nineteen dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
-
-.twenty {
-  width: 33.3%;
-  float: left;
-}
-
-.twenty dd {
-  padding-bottom: 4em;
-  margin: 0;
-}
-
-.twenty-one {
-  width: 33.3%;
-  float: left;
-}
-
-.twenty-one dd {
-  padding-bottom: 4em;
-  margin: 0;
 }
 
 
@@ -538,6 +572,7 @@ header a:hover {
   text-align: center;
   border-radius: 0.5rem;
   width: 100%;
+  padding-bottom: 2em;
 }
 
 .member a:hover {
@@ -628,7 +663,7 @@ footer a {
 }
 
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 14em) {
 
   header h1 {
   font-size: 1.2em;
@@ -657,33 +692,34 @@ header nav a{
   width: 100%;
 }
 
-.giza dl {
-  font-size: 0.8em;
+.facts {
+  font-size: 0.6em;
 }
 
-.babylon dl {
-  font-size: 0.8em;
+.facts-two {
+  font-size: 0.6em;
 }
 
-.artemis dl {
-  font-size: 0.8em;
+.facts-three {
+  font-size: 0.6em;
 }
 
-.zeus dl {
-  font-size: 0.8em;
+.facts-four {
+  font-size: 0.6em;
 }
 
-.halicarnassus dl {
-  font-size: 0.8em;
+.facts-five {
+  font-size: 0.6em;
 }
 
-.rhodes dl {
-  font-size: 0.8em;
+.facts-six {
+  font-size: 0.6em;
 }
 
-.alexandria dl {
-  font-size: 0.8em;
+.facts-seven {
+  font-size: 0.6em;
 }
+
 
 .tickets a {
   display: inline-block;
@@ -743,6 +779,9 @@ header nav a{
   width: 100%;
 }
 
+.member li{
+  padding-bottom: 4em;
+}
 
 }
 
@@ -781,31 +820,31 @@ header nav a{
     font-size: 1.5em;
 }
 
-  .giza dl {
+  .facts {
     font-size: 0.9em;
   }
 
-  .babylon dl {
+  .facts-two {
     font-size: 0.9em;
   }
 
-  .artemis dl {
+  .facts-three {
     font-size: 0.9em;
   }
 
-  .zeus dl {
+  .facts-four {
     font-size: 0.9em;
   }
 
-  .halicarnassus dl {
+  .facts-five {
     font-size: 0.9em;
   }
 
-  .rhodes dl {
+  .facts-six {
     font-size: 0.9em;
   }
 
-  .alexandria dl {
+  .facts-seven {
     font-size: 0.9em;
   }
 
@@ -852,7 +891,7 @@ header img {
 header nav a{
   display: inline-block;
   padding: 0.5em;
-  margin: 0.5 0.5 0.5 0.5em;
+  margin: 0.5em;
   background-color: darkgrey;
   color: white;
   text-decoration: none;
@@ -866,31 +905,31 @@ header nav a{
   font-size: 3em;
 }
 
-.giza dl {
+.facts {
   font-size: 1em;
 }
 
-.babylon dl {
+.facts-two {
   font-size: 1em;
 }
 
-.artemis dl {
+.facts-three {
   font-size: 1em;
 }
 
-.zeus dl {
+.facts-four {
   font-size: 1em;
 }
 
-.halicarnassus dl {
+.facts-fivel {
   font-size: 1em;
 }
 
-.rhodes dl {
+.facts-six {
   font-size: 1em;
 }
 
-.alexandria dl {
+.facts-seven {
   font-size: 1em;
 }
 
@@ -957,12 +996,12 @@ font-size: 2em;
   width: 45%;
 }
 
-.giza dl {
-  font-size: 0.9em;
+.facts {
+  font-size: 0.7em;
 }
 
-.babylon dl {
-  font-size: 0.9em;
+.facts-two {
+  font-size: 0.7em;
 }
 
 .artemis {
@@ -976,12 +1015,12 @@ font-size: 2em;
   width: 45%;
 }
 
-.artemis dl {
-  font-size: 0.9em;
+.facts-three {
+  font-size: 0.7em;
 }
 
-.zeus dl {
-  font-size: 0.9em;
+.facts-four {
+  font-size: 0.7em;
 }
 
 .halicarnassus {
@@ -994,12 +1033,12 @@ font-size: 2em;
   width: 45%;
 }
 
-.rhodes dl {
-  font-size: 0.9em;
+.facts-five {
+  font-size: 0.7em;
 }
 
-.halicarnassus dl {
-  font-size: 0.9em;
+.facts-six {
+  font-size: 0.7em;
 }
 
 .alexandria {
@@ -1007,8 +1046,8 @@ font-size: 2em;
   margin: auto;
 }
 
-.alexandria dl {
-  font-size: 0.9em;
+.facts-seven {
+  font-size: 0.7em;
 }
 
 .tickets a {
@@ -1036,12 +1075,41 @@ font-size: 2em;
     right: 2.5em;
   }
 
+  .facts {
+    font-size: 0.8em;
+  }
+
+  .facts-two {
+    font-size: 0.8em;
+  }
+
+  .facts-three {
+    font-size: 0.8em;
+  }
+
+  .facts-four {
+    font-size: 0.8em;
+  }
+
+  .facts-fivel {
+    font-size: 0.8em;
+  }
+
+  .facts-six {
+    font-size: 0.8em;
+  }
+
+  .facts-seven {
+    font-size: 0.8em;
+  }
+
+
   .tickets a {
-    padding: 0.5em 10em;
+    padding: 0.5em 6em;
   }
 
   .member a {
-    padding: 0.5em 10em;
+    padding: 0.5em 6em;
   }
 
 
