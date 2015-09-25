@@ -24,9 +24,8 @@ font-size: 2em;
 text-align: center;
 width: 100%;
 display: inline-block;
-margin left: auto;
+margin-left: auto;
 margin-right: auto;
-float: center;
 }
 
 header img {
@@ -577,13 +576,9 @@ footer a {
   text-decoration: none;
 }
 
-}
 
 @media only screen and (min-width: 20em) {
 
-header{
-  border-radius:
-}
   header h1 {
   font-size: 1.2em;
   width: 50%;
@@ -607,10 +602,6 @@ header nav a{
   display: block;
   padding: 0.5em;
   margin: 0.5em 0.5em 0.5em 0;
-  background-color: darkgrey;
-  color: white;
-  text-decoration: none;
-  text-align: center;
   border-radius: 0;
   width: 100%;
 }
@@ -693,7 +684,6 @@ header img {
 header nav a{
   display: inline-block;
   padding: 0.5em 0 0.5em 0;
-  margin: 0.5 0.5 0.5 0.5em;
   background-color: darkgrey;
   color: white;
   text-decoration: none;
@@ -708,18 +698,18 @@ header nav a{
 @media only screen and (min-width: 30em) {
 
   header h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   width: 100%;
 }
 
   header img {
     margin-left: 1em;
-    margin-top: 1.5em;
+    margin-top: 0.8em;
   }
 
   .button-top {
-    right: 0.8em;
-    top: 1.3em;
+    right: 0.5em;
+    top: 0.7em;
   }
 
   header nav a{
@@ -778,9 +768,8 @@ font-size: 2em;
 text-align: center;
 width: 100%;
 display: inline-block;
-margin left: auto;
+margin-left: auto;
 margin-right: auto;
-float: center;
 }
 
 header img {
@@ -907,62 +896,49 @@ font-size: 2em;
 }
 
 
+.giza {
+  float: left;
+  width: 45%;
+}
+
+.babylon {
+  float: right;
+  width: 45%;
+}
+
 .giza dl {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .babylon dl {
-  font-size: 1.5em;
+  font-size: 1em;
+}
+
+.artemis {
+  width: 45%;
+  float: left;
+}
+
+.zeus {
+  float: right;
+  width: 45%;
 }
 
 .artemis dl {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .zeus dl {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .halicarnassus dl {
-  font-size: 1.5em;
-}
-
-.rhodes dl {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .alexandria dl {
-  font-size: 1.5em;
+  font-size: 1em;
 }
-
-.giza h3 {
-  font-size: 2em;
-}
-
-.babylon h3 {
-  font-size: 2em;
-}
-
-.artemis h3 {
-  font-size: 2em;
-}
-
-.zeus h3 {
-  font-size: 2em;
-}
-
-.halicarnassus h3 {
-  font-size: 2em;
-}
-
-.rhodes h3 {
-  font-size: 2em;
-}
-
-.alexandria h3 {
-  font-size: 2em;
-}
-
 
 .tickets a {
   padding: 0.5em 5em;
